@@ -17,11 +17,11 @@ const defaultGeneral = {
 const defaultEducation = [
   {
     id: 1,
-    school: 'University of California, Berkeley',
-    degree: 'B.S. Computer Science',
+    school: 'University of Cape Town',
+    degree: 'BSc. Computer Science',
     startDate: '2016',
     endDate: '2020',
-    location: 'Berkeley, CA',
+    location: 'Cape Town',
   },
 ];
 
@@ -32,7 +32,7 @@ const defaultExperience = [
     position: 'Frontend Developer',
     startDate: '2020',
     endDate: 'Present',
-    location: 'San Francisco, CA',
+    location: 'Cape Town, South Africa',
     description:
       'Developed responsive user interfaces with React and Tailwind CSS.',
   },
