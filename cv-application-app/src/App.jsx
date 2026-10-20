@@ -6,7 +6,7 @@ import './App.css';
 
 const defaultGeneral = {
   fullName: 'John Doe',
-  title: 'Senior Software Engineer',
+  title: 'Junior Software Engineer',
   email: 'john.doe@example.com',
   phone: '+27 123 456789',
   location: 'Cape Town, South Africa',
