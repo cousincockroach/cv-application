@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import GeneralInformation from './GeneralInformation';
-import Education from './Education';
-import Experience from './Experience';
+import GeneralInformation from './GeneralInformation.jsx';
+import Education from './Education.jsx';
+import Experience from './Experience.jsx';
 import './App.css';
 
 const defaultGeneral = {
