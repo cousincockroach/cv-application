@@ -8,10 +8,10 @@ const defaultGeneral = {
   fullName: 'John Doe',
   title: 'Senior Software Engineer',
   email: 'john.doe@example.com',
-  phone: '+1 (555) 019-2834',
-  location: 'San Francisco, CA',
+  phone: '+27 123 456789',
+  location: 'Cape Town, South Africa',
   summary:
-    'Dedicated Software Engineer with 5+ years of experience building modern web applications.',
+    'Dedicated Junior Software Engineer building modern web applications.',
 };
 
 const defaultEducation = [
