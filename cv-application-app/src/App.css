@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.cv-app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Forms Styling */
+.builder-forms {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-form {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item-card {
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.item-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btn-add {
+  background-color: #2563eb;
+  color: white;
+  width: 100%;
+}
+
+.btn-delete {
+  background-color: #ef4444;
+  color: white;
+}
+
+
+.preview-container {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.cv-document {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  min-height: 800px;
+}
+
+.cv-header {
+  text-align: center;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #111827;
+}
+
+.cv-subtitle {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin: 0.25rem 0;
+}
+
+.cv-contact {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.cv-section {
+  margin-bottom: 1.5rem;
+}
+
+.cv-section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #2563eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.cv-item {
+  margin-bottom: 1rem;
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-dates, .cv-location {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.cv-description {
+  white-space: pre-line;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .cv-app {
+    grid-template-columns: 1fr;
+  }
+}
